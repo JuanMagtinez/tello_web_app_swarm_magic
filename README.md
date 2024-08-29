@@ -13,6 +13,8 @@ Antes de ejecutar el código hay que descargarse:
 - Python 3.7.5
 - paho.mqtt
 - djitellopy
+  
+Una vez se tengan todos los paquetes instalados , desde el cmd se ejecutará el "ionic serve"
 ### Videos
 - Vídeo demostrativo de la web app y explicación del código:
 - Video explicativo del show de drones:
