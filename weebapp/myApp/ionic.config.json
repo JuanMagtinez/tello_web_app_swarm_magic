@@ -1,7 +1,0 @@
-{
-  "name": "tello",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "vue"
-}
