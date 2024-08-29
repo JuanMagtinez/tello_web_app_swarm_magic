@@ -28,7 +28,7 @@ Antes de ejecutar el código hay que descargarse:
 - ultralytics
 - djitellopy
 ### Videos
-- Video demostrativo detección de una cara del dado:
+- Video demostrativo detección de una cara del dado: https://youtu.be/dTZshJcesGM
 - Video explicativo de la detección de la cara del dado:
 - Video demostrativo de la detección de la carta que falta:
 - Video explicativo del código de la detección de la carta que falta:
