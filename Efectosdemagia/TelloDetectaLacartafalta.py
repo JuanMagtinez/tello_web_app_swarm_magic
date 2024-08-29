@@ -6,7 +6,7 @@ from djitellopy import Tello
 
 
 def process_frame(model, frame, conf_threshold=0.6):
-    # Convert BGR to RGB for model inference
+    # Conversion BGR a RGB para el modelo de "inference"
     frame_rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
 
     # Inference
@@ -14,7 +14,7 @@ def process_frame(model, frame, conf_threshold=0.6):
     df = pred.pandas().xyxy[0]
     df = df[df["confidence"] > conf_threshold]
 
-    # Initialize a list to hold the names of detected objects
+    # Inicializa el vector donde se pondrán los datos
     detected_objects = []
 
     for i in range(df.shape[0]):
@@ -22,13 +22,13 @@ def process_frame(model, frame, conf_threshold=0.6):
         name = df.iloc[i]["name"]
         confidence = df.iloc[i]["confidence"]
 
-        # Add the detected object's name to the list
+        # Añade los objetos detectados a la lista
         detected_objects.append(name)
 
-        # Draw bounding boxes in RGB format
+        # Dibuja las bounding boxes en formato RGB 
         cv2.rectangle(frame_rgb, (bbox[0], bbox[1]), (bbox[2], bbox[3]), (255, 0, 0), 2)
 
-        # Draw label text
+        # Dibuja el texto de la etiqueta
         cv2.putText(frame_rgb,
                     f"{name}: {round(confidence, 2)}",
                     (bbox[0], bbox[1] - 10),
@@ -37,7 +37,7 @@ def process_frame(model, frame, conf_threshold=0.6):
                     (255, 255, 255),
                     1)
 
-    # Convert back to BGR for OpenCV display
+    # Convierte a BGR para OpenCV 
     frame_bgr = cv2.cvtColor(frame_rgb, cv2.COLOR_RGB2BGR)
 
     return frame_bgr, detected_objects
@@ -127,7 +127,7 @@ if __name__ == '__main__':
                                     "EXT mled g bbbbbbbb0000000b0000000bbbbbbbbbb0000000b0000000b0000000bbbbbbbb")
                                 print(f"La carta escogida es: {missing_cards}")
                         else:
-                            print("No cards are missing, all three initial cards are detected.")
+                            print("Ninguana carta falta")
 
                         break  # Finalizar después de la detección final
 
