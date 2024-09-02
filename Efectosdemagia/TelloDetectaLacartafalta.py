@@ -81,8 +81,7 @@ if __name__ == '__main__':
     detected_two_cards = None
     stage = 1  # Fase del proceso: 1 = detección de 3 cartas, 2 = detección de 2 cartas
 
-    predefined_four_cards = ["card1", "card2", "card3", "card4"]  # Lista de cuatro cartas para comparación
-
+    
     try:
         while True:
             # Captura de cuadro por cuadro
