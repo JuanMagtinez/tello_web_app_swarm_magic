@@ -18,7 +18,7 @@ Una vez se tengan todos los paquetes instalados , desde el cmd se ejecutará el 
 ### Videos
 - Vídeo demostrativo de la web app y explicación del código:
 - Vídeo explicativo del show de drones:
-- Vídeo demostrativo show de drones:
+- Vídeo demostrativo show de drones: https://youtu.be/zGgFJuzjSBg
 ## Trucos de magia
 ### Paquetes y librerías 
 Antes de ejecutar el código hay que descargarse:
