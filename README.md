@@ -31,6 +31,6 @@ Antes de ejecutar el código hay que descargarse:
 - djitellopy
 ### Videos
 - Video demostrativo detección de una cara del dado: https://youtu.be/dTZshJcesGM
-- Video explicativo de la detección de la cara del dado:
+- Video explicativo de la detección de la cara del dado: https://youtu.be/8pkJm7eTJDQ
 - Video demostrativo de la detección de la carta que falta: https://youtu.be/jpKfbgpkw2c
 - Video explicativo del código de la detección de la carta que falta:
