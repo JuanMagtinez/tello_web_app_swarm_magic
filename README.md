@@ -17,7 +17,7 @@ Antes de ejecutar el código hay que descargarse:
 Una vez se tengan todos los paquetes instalados , desde el cmd se ejecutará el "ionic serve"
 ### Videos
 - Vídeo demostrativo de la web app y explicación del código:
-- Vídeo explicativo del show de drones:
+- Vídeo explicativo del show de drones: https://youtu.be/oy0qlZPp1z4
 - Vídeo demostrativo show de drones: https://youtu.be/zGgFJuzjSBg
 ## Trucos de magia
 ### Paquetes y librerías 
