@@ -70,7 +70,7 @@ def run_bottom_video(drone):
             break
 
     cv2.destroyAllWindows()
-    print('Finalizandoooo')
+    print('Finalizando')
     drone.end()
     print("---Se terminó el programa")
 
