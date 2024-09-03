@@ -96,7 +96,7 @@ if __name__ == '__main__':
                     detected_three_cards = detect_cards(myModel, frame, conf_threshold, card_count=3)
 
                     if detected_three_cards:
-                        print(f"Las tres artas detectadas son: {detected_three_cards}")
+                        print(f"Las tres cartas detectadas son: {detected_three_cards}")
                         # Esperar 10 segundos antes de continuar con la detección de dos cartas
                         sleep(10)
                         stage = 2  # Pasar a la etapa de detección de dos cartas
