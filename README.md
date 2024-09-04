@@ -33,4 +33,4 @@ Antes de ejecutar el código hay que descargarse:
 - Video demostrativo detección de una cara del dado: https://youtu.be/dTZshJcesGM
 - Video explicativo de la detección de la cara del dado: https://youtu.be/8pkJm7eTJDQ
 - Video demostrativo de la detección de la carta que falta: https://youtu.be/jpKfbgpkw2c
-- Video explicativo del código de la detección de la carta que falta:
+- Video explicativo del código de la detección de la carta que falta:https://youtu.be/Eh1qCSeu9mo
